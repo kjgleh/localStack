@@ -23,7 +23,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
     // localstack
-    testImplementation("org.testcontainers:localstack:1.15.2")
+    implementation("org.testcontainers:localstack:1.15.2")
     testImplementation("org.testcontainers:junit-jupiter:1.15.2")
 
     // aws
